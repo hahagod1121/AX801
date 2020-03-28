@@ -4,9 +4,10 @@
 int main()
 {
 
-    int x;
+    int x = 10;
+    int y = 100;
 
-    x = 1 + (8 % 4 == 0);
+    x += ++y;
 
     printf("%d \n", x);
 
